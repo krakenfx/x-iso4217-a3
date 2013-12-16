@@ -5,8 +5,8 @@ X-ISO4217-A3 Internet Standards Draft Registry Contents
 
 These are arranged as follows.
 
-x-iso4217-a3-<xx>.txt:
+__x-iso4217-a3-&lt;xx&gt;__.txt:
  By Internet Standards Draft document revision.
 
-x-iso4217-a3-current.txt:
+__x-iso4217-a3-current.txt__:
  Current document.
