@@ -1,0 +1,371 @@
+# X-ISO4217-A3: Registry of Extensions to the ISO4217 Alpha-3 Namespace
+#
+# Version: 20131217-0
+#  (Format is <yyyy><mm><dd>-<x>, where x is a digit from 0-9)
+#
+# To be replicated freely.
+#
+# Format:
+#  - Lines beginning with '#' are comments.
+#  - Whitespace should be ignored.
+#  - Fields at the end of a record may be absent.
+#
+# Fields:
+#  registry       Registry of origin.
+#
+#                  Code  Registry      Maintenance Agency
+#                  -------------------------------------------
+#                  X     X-ISO4217-A3  IANA
+#                  Z     ISO4217-A3    SIX Interbank Clearing
+#
+#  a3code         Three character code identifying the currency or
+#                 currency-like commodity within a registry.
+#
+#  is_meta        Denotes a meta-assignment (not a normal currency).
+#
+#  is_historic    Denotes a historic codepoint (obsolete).
+#
+#  name-singular  Singular form name of the currency (or primary unit)
+#
+#  e              Number of post-decimal digits in normal use.
+#
+#  created        Date of registration (YYYY-MM-DD), or blank for
+#                 external registries.
+#
+#  modified       Date last modified (YYYY-MM-DD, YYYY-MM or YYYY as
+#                 reflecting accuracy known), or blank for codes
+#                 not yet modified or codes in external registries, 
+#                 except in the case of historic codepoints for which
+#                 the field indicates date of withdrawl (if known).
+#
+#  domain         Primary domain name associated with the record, or
+#                 blank for no domain or external registries.
+#
+#  registrant     Native language name of the registrant (UTF8), or
+#                 blank for external registries.
+X|ANC|0|0|Anoncoin|8|2012-11-13||anoncoin.net|Anoncoin Community
+X|ACD|0|0|Avination Care Dollar|2|2012-11-13||avination.com|Avination Virtual Limited
+X|BTC|0|0|Bitcoin|8|2012-11-13||bitcoin.org|Bitcoin Community
+X|CER|0|0|Kyoto Protocol Certified Emissions Reduction CO2 Tonne|4|2012-11-13|||United Nations Framework Convention on Climate Change
+X|CGB|0|0|Cryptogenic Bullion|8|2013-12-17||http://cryptogenicbullion.org|Cryptogenic Bullion
+X|DGC|0|0|DigitalCoin|8|2013-12-17||digitalcoin.co|Digitalcoin
+X|DVC|0|0|Devcoin|8|2013-12-17||devcoin.org|Devcoin Community
+X|FRC|0|0|Freicoin|8|2013-12-17||freico.in|Freicoin Developers
+X|FTC|0|0|Feathercoin|8|2013-12-17||feathercoin.com|Feathercoin Community
+X|IFC|0|0|Infinitecoin|8|2013-12-17||infinitecoin.org|Infinitecoin Community
+X|IXC|0|0|Ixcoin|8|2013-12-17||ixcoin.org|Ixcoin Community
+X|LTC|0|0|Litecoin|8|2013-12-17||litecoin.org|Litecoin Community
+X|NMC|0|0|Namecoin|8|2013-12-17||dot-bit.org|Namecoin Community
+X|NVC|0|0|Novacoin|8|2013-12-17||novacoin.org|Novacoin Community
+X|MEC|0|0|Megacoin|8|2013-12-17||megacoin.co.nz|Megacoin
+X|MNC|0|0|MinCoin|8|2013-12-17||mincoinforum.com|MinCoin Community
+X|OMC|0|0|Open Metaverse Currency|2|2012-11-13||Open Metaverse Currency Community
+X|PPC|0|0|PPCoin|8|2013-12-17||ppcoin.org|PPCoin Community
+X|PRB|0|0|Transistrian Ruble|0|2012-11-13||cbpmr.net|Trans-Dniester Republican Bank
+X|SLL|0|0|Second Life Linden Dollar|0|2012-11-13||secondlife.com|Linden Research, Inc.
+X|TBC|0|0|Tonal Bitcoin|16|2012-11-26
+X|TEM|0|0|Volos Alternative Monetary Unit|0|2012-11-13||tem-magnesia.gr|Volos Alternative Monetary Unit Community
+X|TRC|0|0|Terracoin|8|2013-12-17||terracoin.org|Terracoin Community
+X|VER|0|0|Non Kyoto Protocol Verified Emissions Reduction CO2 Tonne|4|2012-11-13|||Non Kyoto Protocol Verified Emissions Reduction Community
+X|WDC|0|0|Worldcoin|8|2013-12-17||worldcoinfoundation.org|Worldcoin Foundation
+X|XPM|0|0|Primecoin|8|2013-12-17||primecoin.info|Primecoin Community
+X|XRP|0|0|Ripple Credit|6|2012-11-13||ripple.com|OpenCoin Inc.
+Z|ADP|0|1|Andorran Peseta|||2003-07
+Z|AED|0|0|UAE Dirham|2
+Z|AFA|0|1|Afghani|||2003-01
+Z|AFN|0|0|Afghani|2
+Z|ALK|0|1|Old Lek|||1989-12
+Z|ALL|0|0|Lek|2
+Z|AMD|0|0|Armenian Dram|2
+Z|ANG|0|1|Netherlands Antillean Guilder|||2010-10
+Z|AOA|0|0|Kwanza|2
+Z|AOK|0|1|Kwanza|||1991-03
+Z|AON|0|1|New Kwanza|||2000-02
+Z|AOR|0|1|Kwanza Reajustado|||2000-02
+Z|ARA|0|1|Austral|||1992-01
+Z|ARP|0|1|Peso Argentino|||1985-07
+Z|ARS|0|0|Argentine Peso|2
+Z|ARY|0|1|Peso|||1990
+Z|ATS|0|1|Schilling|||2002-03
+Z|AUD|0|0|Australian Dollar|2
+Z|AWG|0|0|Aruban Florin|2
+Z|AYM|0|1|Azerbaijan Manat|||2005-10
+Z|AZM|0|1|Azerbaijanian Manat|||2005-12
+Z|AZN|0|0|Azerbaijanian Manat|2
+Z|BAD|0|1|Dinar|||1997-07
+Z|BAM|0|0|Convertible Mark|2
+Z|BBD|0|0|Barbados Dollar|2
+Z|BDT|0|0|Taka|2
+Z|BEC|0|1|Convertible Franc|||1990-03
+Z|BEF|0|1|Belgian Franc|||2002-03
+Z|BEL|0|1|Financial Franc|||1990-03
+Z|BGJ|0|1|Lev A/52|||1990
+Z|BGK|0|1|Lev A/62|||1990
+Z|BGL|0|1|Lev|||2003-11
+Z|BGN|0|0|Bulgarian Lev|2
+Z|BHD|0|0|Bahraini Dinar|3
+Z|BIF|0|0|Burundi Franc|0
+Z|BMD|0|0|Bermudian Dollar|2
+Z|BND|0|0|Brunei Dollar|2
+Z|BOB|0|0|Boliviano|2
+Z|BOP|0|1|Peso boliviano|||1987-02
+Z|BOV|0|0|Mvdol|2
+Z|BRB|0|1|Cruzeiro|||1986-03
+Z|BRC|0|1|Cruzado|||1989-02
+Z|BRE|0|1|Cruzeiro|||1993-03
+Z|BRL|0|0|Brazilian Real|2
+Z|BRN|0|1|New Cruzado|||1990-03
+Z|BRR|0|1|Cruzeiro Real|||1994-07
+Z|BSD|0|0|Bahamian Dollar|2
+Z|BTN|0|0|Ngultrum|2
+Z|BUK|0|1|N.A.|||1990-02
+Z|BWP|0|0|Pula|2
+Z|BYB|0|1|Belarussian Ruble|||2001-01
+Z|BYR|0|0|Belarussian Ruble|0
+Z|BZD|0|0|Belize Dollar|2
+Z|CAD|0|0|Canadian Dollar|2
+Z|CDF|0|0|Congolese Franc|2
+Z|CHC|0|1|WIR Franc (for electronic)|||2004-11
+Z|CHE|0|0|WIR Euro|2
+Z|CHF|0|0|Swiss Franc|2
+Z|CHW|0|0|WIR Franc|2
+Z|CLF|0|0|Unidades de fomento|0
+Z|CLP|0|0|Chilean Peso|0
+Z|CNX|0|1|Peoples Bank Dollar|||1989-12
+Z|CNY|0|0|Yuan Renminbi|2
+Z|COP|0|0|Colombian Peso|2
+Z|COU|0|0|Unidad de Valor Real|2
+Z|CRC|0|0|Costa Rican Colon|2
+Z|CSD|0|1|Serbian Dinar|||2006-10
+Z|CSJ|0|1|Krona A/53|||1990
+Z|CSK|0|1|Koruna|||1993-03
+Z|CUC|0|0|Peso Convertible|2
+Z|CUP|0|0|Cuban Peso|2
+Z|CVE|0|0|Cape Verde Escudo|2
+Z|CYP|0|1|Cyprus Pound|||2008-01
+Z|CZK|0|0|Czech Koruna|2
+Z|DDM|0|1|Mark der DDR|||1990-09
+Z|DEM|0|1|Deutsche Mark|||2002-03
+Z|DJF|0|0|Djibouti Franc|0
+Z|DKK|0|0|Danish Krone|2
+Z|DOP|0|0|Dominican Peso|2
+Z|DZD|0|0|Algerian Dinar|2
+Z|ECS|0|1|Sucre|||2000-09
+Z|ECV|0|1|Unidad de Valor Constante (UVC)|||2000-09
+Z|EEK|0|1|Kroon|||2011-01
+Z|EGP|0|0|Egyptian Pound|2
+Z|EQE|0|1|Ekwele|||1989-12
+Z|ERN|0|0|Nakfa|2
+Z|ESA|0|1|Spanish Peseta|||1981
+Z|ESB|0|1|"A" Account (convertible Peseta Account)|||1994-12
+Z|ESP|0|1|Spanish Peseta|||2002-03
+Z|ETB|0|0|Ethiopian Birr|2
+Z|EUR|0|1|Euro|||2006-10
+Z|FIM|0|1|Markka|||2002-03
+Z|FJD|0|0|Fiji Dollar|2
+Z|FKP|0|0|Falkland Islands Pound|2
+Z|FRF|0|1|French Franc|||1999-01
+Z|GBP|0|0|Pound Sterling|2
+Z|GEK|0|1|Georgian Coupon|||1995-10
+Z|GEL|0|0|Lari|2
+Z|GHC|0|1|Cedi|||2008-01
+Z|GHP|0|1|Ghana Cedi|||2007-06
+Z|GHS|0|0|Ghana Cedi|2
+Z|GIP|0|0|Gibraltar Pound|2
+Z|GMD|0|0|Dalasi|2
+Z|GNE|0|1|Syli|||1989-12
+Z|GNF|0|0|Guinea Franc|0
+Z|GNS|0|1|Syli|||1986-02
+Z|GQE|0|1|Ekwele|||1986-06
+Z|GRD|0|1|Drachma|||2002-03
+Z|GTQ|0|0|Quetzal|2
+Z|GWE|0|1|Guinea Escudo|||1981
+Z|GWP|0|1|Guinea-Bissau Peso|||1997-05
+Z|GYD|0|0|Guyana Dollar|2
+Z|HKD|0|0|Hong Kong Dollar|2
+Z|HNL|0|0|Lempira|2
+Z|HRD|0|1|Croatian Dinar|||1995-01
+Z|HRK|0|0|Croatian Kuna|2
+Z|HTG|0|0|Gourde|2
+Z|HUF|0|0|Forint|2
+Z|IDR|0|1|Rupiah|||2002-07
+Z|IEP|0|1|Irish Pound|||2002-03
+Z|ILP|0|1|Pound|||1981
+Z|ILR|0|1|Old Shekel|||1990
+Z|ILS|0|0|New Israeli Sheqel|2
+Z|INR|0|0|Indian Rupee|2
+Z|IQD|0|0|Iraqi Dinar|3
+Z|IRR|0|0|Iranian Rial|2
+Z|ISJ|0|1|Old Krona|||1990
+Z|ISK|0|0|Iceland Krona|0
+Z|ITL|0|1|Italian Lira|||2002-03
+Z|JMD|0|0|Jamaican Dollar|2
+Z|JOD|0|0|Jordanian Dinar|3
+Z|JPY|0|0|Yen|0
+Z|KES|0|0|Kenyan Shilling|2
+Z|KGS|0|0|Som|2
+Z|KHR|0|0|Riel|2
+Z|KMF|0|0|Comoro Franc|0
+Z|KPW|0|0|North Korean Won|2
+Z|KRW|0|0|Won|0
+Z|KWD|0|0|Kuwaiti Dinar|3
+Z|KYD|0|0|Cayman Islands Dollar|2
+Z|KZT|0|0|Tenge|2
+Z|LAJ|0|1|Kip Pot Pol|||1989-12
+Z|LAK|0|0|Kip|2
+Z|LBP|0|0|Lebanese Pound|2
+Z|LKR|0|0|Sri Lanka Rupee|2
+Z|LRD|0|0|Liberian Dollar|2
+Z|LSL|0|0|Loti|2
+Z|LSM|0|1|Maloti|||1985-05
+Z|LTL|0|0|Lithuanian Litas|2
+Z|LTT|0|1|Talonas|||1993-07
+Z|LUC|0|1|Luxembourg Convertible Franc|||1990-03
+Z|LUF|0|1|Luxembourg Franc|||2002-03
+Z|LUL|0|1|Luxembourg Financial Franc|||1990-03
+Z|LVL|0|0|Latvian Lats|2
+Z|LVR|0|1|Latvian Ruble|||1994-12
+Z|LYD|0|0|Libyan Dinar|3
+Z|MAD|0|0|Moroccan Dirham|2
+Z|MAF|0|1|Mali Franc|||1989-12
+Z|MDL|0|0|Moldovan Leu|2
+Z|MGA|0|0|Malagasy Ariary|2
+Z|MGF|0|1|Malagasy Franc|||2004-12
+Z|MKD|0|0|Denar|2
+Z|MLF|0|1|Mali Franc|||1984-11
+Z|MMK|0|0|Kyat|2
+Z|MNT|0|0|Tugrik|2
+Z|MOP|0|0|Pataca|2
+Z|MRO|0|0|Ouguiya|2
+Z|MTL|0|1|Maltese Lira|||2008-01
+Z|MTP|0|1|Maltese Pound|||1983-06
+Z|MUR|0|0|Mauritius Rupee|2
+Z|MVQ|0|1|Maldive Rupee|||1989-12
+Z|MVR|0|0|Rufiyaa|2
+Z|MWK|0|0|Kwacha|2
+Z|MXN|0|0|Mexican Peso|2
+Z|MXP|0|1|Mexican Peso|||1993-01
+Z|MXV|0|0|Mexican Unidad de Inversion (UDI)|2
+Z|MYR|0|0|Malaysian Ringgit|2
+Z|MZE|0|1|Mozambique Escudo|||1981
+Z|MZM|0|1|Mozambique Metical|||2006-06
+Z|MZN|0|0|Mozambique Metical|2
+Z|NAD|0|0|Namibia Dollar|2
+Z|NGN|0|0|Naira|2
+Z|NIC|0|1|Cordoba|||1990-10
+Z|NIO|0|0|Cordoba Oro|2
+Z|NLG|0|1|Netherlands Guilder|||2002-03
+Z|NOK|0|0|Norwegian Krone|2
+Z|NPR|0|0|Nepalese Rupee|2
+Z|NZD|0|0|New Zealand Dollar|2
+Z|OMR|0|0|Rial Omani|3
+Z|PAB|0|0|Balboa|2
+Z|PEH|0|1|Sol|||1990
+Z|PEI|0|1|Inti|||1991-07
+Z|PEN|0|0|Nuevo Sol|2
+Z|PES|0|1|Sol|||1986-02
+Z|PGK|0|0|Kina|2
+Z|PHP|0|0|Philippine Peso|2
+Z|PKR|0|0|Pakistan Rupee|2
+Z|PLN|0|0|Zloty|2
+Z|PLZ|0|1|Zloty|||1997-01
+Z|PTE|0|1|Portuguese Escudo|||2002-03
+Z|PYG|0|0|Guarani|0
+Z|QAR|0|0|Qatari Rial|2
+Z|RHD|0|1|Rhodesian Dollar|||1981
+Z|ROK|0|1|Leu A/52|||1990
+Z|ROL|0|1|Old Leu|||2005-06
+Z|RON|0|0|New Romanian Leu|2
+Z|RSD|0|0|Serbian Dinar|2
+Z|RUB|0|0|Russian Ruble|2
+Z|RUR|0|1|Russian Ruble|||1994-07
+Z|RWF|0|0|Rwanda Franc|0
+Z|SAR|0|0|Saudi Riyal|2
+Z|SBD|0|0|Solomon Islands Dollar|2
+Z|SCR|0|0|Seychelles Rupee|2
+Z|SDD|0|1|Sudanese Dinar|||2007-07
+Z|SDG|0|1|Sudanese Pound|||2012-09
+Z|SDP|0|1|Sudanese Pound|||1998-06
+Z|SEK|0|0|Swedish Krona|2
+Z|SGD|0|0|Singapore Dollar|2
+Z|SHP|0|0|Saint Helena Pound|2
+Z|SIT|0|1|Tolar|||2007-01
+Z|SKK|0|1|Slovak Koruna|||2009-01
+Z|SLL|0|0|Leone|2
+Z|SOS|0|0|Somali Shilling|2
+Z|SRD|0|0|Surinam Dollar|2
+Z|SRG|0|1|Surinam Guilder|||2003-12
+Z|SSP|0|0|South Sudanese Pound|2
+Z|STD|0|0|Dobra|2
+Z|SUR|0|1|Rouble|||1990-12
+Z|SVC|0|0|El Salvador Colon|2
+Z|SYP|0|0|Syrian Pound|2
+Z|SZL|0|0|Lilangeni|2
+Z|THB|0|0|Baht|2
+Z|TJR|0|1|Tajik Ruble|||2001-04
+Z|TJS|0|0|Somoni|2
+Z|TMM|0|1|Turkmenistan Manat|||2009-01
+Z|TMT|0|0|Turkmenistan New Manat|2
+Z|TND|0|0|Tunisian Dinar|3
+Z|TOP|0|0|Pa'anga|2
+Z|TPE|0|1|Timor Escudo|||2002-11
+Z|TRL|0|1|Old Turkish Lira|||2005-12
+Z|TRY|0|1|New Turkish Lira|||2009-01
+Z|TTD|0|0|Trinidad and Tobago Dollar|2
+Z|TWD|0|0|New Taiwan Dollar|2
+Z|TZS|0|0|Tanzanian Shilling|2
+Z|UAH|0|0|Hryvnia|2
+Z|UAK|0|1|Karbovanet|||1996-09
+Z|UGS|0|1|Uganda Shilling|||1987-05
+Z|UGW|0|1|Old Shilling|||1990
+Z|UGX|0|0|Uganda Shilling|0
+Z|USD|0|0|US Dollar|2
+Z|USN|0|0|US Dollar (Next day)|2
+Z|USS|0|0|US Dollar (Same day)|2
+Z|UYI|0|0|Uruguay Peso en Unidades Indexadas (URUIURUI)|0
+Z|UYN|0|1|Old Uruguay Peso|||1989-12
+Z|UYP|0|1|Uruguayan Peso|||1993-03
+Z|UYU|0|0|Peso Uruguayo|2
+Z|UZS|0|0|Uzbekistan Sum|2
+Z|VEB|0|1|Bolivar|||2008-01
+Z|VEF|0|1|Bolivar Fuerte|||2011-12
+Z|VNC|0|1|Old Dong|||1989-1990
+Z|VND|0|0|Dong|0
+Z|VUV|0|0|Vatu|0
+Z|WST|0|0|Tala|2
+Z|XAF|0|0|CFA Franc BEAC|0
+Z|XAG|0|0|Silver
+Z|XAU|0|0|Gold
+Z|XBA|0|0|Bond Markets Unit European Composite Unit (EURCO)
+Z|XBB|0|0|Bond Markets Unit European Monetary Unit (E.M.U.-6)
+Z|XBC|0|0|Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+Z|XBD|0|0|Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
+Z|XCD|0|0|East Caribbean Dollar|2
+Z|XDR|1|0|SDR (Special Drawing Right)
+Z|XEU|0|1|European Currency Unit (E.C.U)|||1999-01
+Z|XFO|0|1|Gold-Franc|||2006-10
+Z|XFU|0|0|UIC-Franc
+Z|XOF|0|0|CFA Franc BCEAO|0
+Z|XPD|0|0|Palladium
+Z|XPF|0|0|CFP Franc|0
+Z|XPT|0|0|Platinum
+Z|XRE|0|1|RINET Funds Code|||1999-11
+Z|XSU|0|0|Sucre
+Z|XTS|1|0|Codes specifically reserved for testing purposes
+Z|XUA|0|0|ADB Unit of Account
+Z|XXX|1|0|No currency involved
+Z|YDD|0|1|Yemeni Dinar|||1991-09
+Z|YER|0|0|Yemeni Rial|2
+Z|YUD|0|1|New Yugoslavian Dinar|||1990-01
+Z|YUM|0|1|New Dinar|||2003-07
+Z|YUN|0|1|Yugoslavian Dinar|||1995-11
+Z|ZAL|0|1|Financial Rand|||1995-03
+Z|ZAR|0|0|Rand|2
+Z|ZMK|0|1|Zambian Kwacha|||2012-12
+Z|ZRN|0|1|New Zaire|||1999-06
+Z|ZRZ|0|1|Zaire|||1994-02
+Z|ZWC|0|1|Rhodesian Dollar|||1989-12
+Z|ZWD|0|1|Zimbabwe Dollar|||2008-08
+Z|ZWL|0|0|Zimbabwe Dollar|2
+Z|ZWN|0|1|Zimbabwe Dollar (new)|||2006-09
+Z|ZWR|0|1|Zimbabwe Dollar|||2009-06
